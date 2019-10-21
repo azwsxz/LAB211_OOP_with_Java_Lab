@@ -1,0 +1,63 @@
+﻿.nowrap {
+    white-space: nowrap;
+}
+
+.nowrap a {
+    font-size:16px;
+    margin-right:2px;
+}
+
+table.dataTable thead tr th {
+    white-space: nowrap;
+}
+
+table.dataTable tfoot {
+    display:table-header-group;
+}
+
+table.gradeDetail td {
+    padding: 3px;
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+
+table.gradeDetail th {
+    padding: 3px;
+    border: 1px solid black;
+    border-collapse:collapse;
+    background-color: linen;
+    font-weight: bold;
+}
+
+table.errorTable {
+    table-layout:fixed;
+    width: 100%;
+    border: 1px solid grey;
+}
+
+table.errorTable td {
+    border: 1px dashed grey;
+    padding: 5px;
+}
+
+table.errorTable th {
+    background-color: honeydew;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+table.errorTable th {
+    padding: 5px;
+}
+
+table.errorTable td {
+    word-wrap:break-word;
+}
+
+.passed {
+    color: green;
+}
+
+.failed {
+    color: red;
+}

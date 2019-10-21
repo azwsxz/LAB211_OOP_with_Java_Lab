@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://10.22.127.127/Practice/AssignmentDetails/56 -->
+<html lang="en" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+
+    <title>Practice Tracking System</title>
+    <link href="./26_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./26_files/responsive.bootstrap.min.css" rel="stylesheet">
+    <link href="./26_files/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="./26_files/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="./26_files/AdminLTE.min.css">
+    <link rel="stylesheet" href="./26_files/_all-skins.css">
+    <link href="./26_files/toastr.min.css" rel="stylesheet">
+
+    <link href="./26_files/site.css" rel="stylesheet">
+    
+    <link href="./26_files/bootstrap-chosen.css" rel="stylesheet">
+    <link href="./26_files/bootstrap-duallistbox.min.css" rel="stylesheet">
+    <script src="./26_files/modernizr"></script>
+
+    <script src="./26_files/jquery"></script>
+
+    <script src="./26_files/jquery.slimscroll.min.js"></script>
+    <script src="./26_files/app.js"></script>
+
+
+    <link href="./26_files/customAdmin.css" rel="stylesheet">
+
+</head>
+
+<body class="skin-blue sidebar-mini fixed sidebar-collapse">
+    <div id="wrapper" class="wrapper">
+        
+
+
+<!-- Navigation -->
+<header class="main-header">
+    <!-- Logo -->
+    <a href="http://10.22.127.127/" class="logo">
+        <!-- mini logo for sidebar mini 50x50 pixels -->
+        <span class="logo-mini"><b>PTS</b></span>
+        <!-- logo for regular state and mobile devices -->
+        <span class="logo-lg" style="font-size:16px;font-weight:bold">Practice Tracking System</span>
+    </a>
+
+    <nav class="navbar navbar-static-top" role="navigation">
+        <!-- Sidebar toggle button-->
+        <a href="http://10.22.127.127/Practice/AssignmentDetails/56#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+        </a>
+
+        <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+                <li style="display:none;">
+                    <a href="http://10.22.127.127/Student/GradeTable"> <i class="fa fa-list"></i> Grade Book</a>
+                </li>
+
+                <li class="dropdown user user-menu">
+                    <a href="http://10.22.127.127/Practice/AssignmentDetails/56#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        
+                        <i class="fa fa-user"></i>
+                        <span class="hidden-xs text-bold text-lime">Nguyễn Huy Thành</span>
+                    </a>
+                   
+                    <ul class="dropdown-menu">
+                        <!-- User image -->
+                        <li class="user-header">
+                            <img src="./26_files/no-photo.png" class="img-circle" alt="User Image">
+                            <p>
+                                Nguyễn Huy Thành
+                            </p>
+                        </li>
+                        <li class="user-footer">
+                            <div class="pull-left">
+                            </div>
+                            
+                            <div class="pull-right">
+                                
+                                
+<form action="http://10.22.127.127/Account/LogOff" id="logoutForm" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="a7eGHRAt0UQ5ESK3pYY815x-q9rkWizn4Nc7u9Y8T1eoD-ZRQ3ofpp90Pm63yFbJESme7qtY5uwrd5L-kZITorynX-I0m2TALVJFRqr6HrsMrSUnDIV9ESKoejdQS8Nb0">                                    <a href="javascript:document.getElementById(&#39;logoutForm&#39;).submit()" class="btn btn-default btn-flat"> Logout</a>
+</form>                            </div>
+                        </li>
+                    </ul>
+                   
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- /.navbar-header -->
+
+<aside class="main-sidebar">
+    <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 573px;"><section class="sidebar" style="height: 573px; overflow: hidden; width: auto;">
+        <div class="user-panel">
+            <div class="image">
+                <img class="center-block" src="./26_files/logo.png" alt="FPT University" style="max-width:160px;">
+            </div>
+        </div>
+        <ul class="sidebar-menu">
+
+            
+
+            <li class="treeview" style="display:none">
+                <a href="http://10.22.127.127/ClassTracking">
+                    <i class="fa fa-table fa-fw"></i>
+                    <span>Class Tracking</span>
+                </a>
+            </li>
+            <li class="treeview" style="display:none">
+                <a href="http://10.22.127.127/Assignment">
+                    <i class="fa fa-newspaper-o fa-fw"></i>
+                    <span>Assignment</span>
+                </a>
+            </li>
+            
+            
+
+                <li style="">
+
+                    <a href="http://10.22.127.127/Practice">
+                        <i class="fa fa-edit fa-fw"></i>
+                        <span>Assignments</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://10.22.127.127/Practice/Ranking">
+                        <i class="fa fa-circle-o"></i>
+                        <span>Ranking</span>
+                    </a>
+                </li>
+
+            
+            <li style="display:none">
+                <a href="http://10.22.127.127/Practice/AssignmentDetails/56#">
+                    <i class="fa fa-pie-chart fa-fw"></i>
+                    <span>Reports</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li>
+                        <a href="http://10.22.127.127/Report/Summary">
+                            <i class="fa fa-circle-o"></i>
+                            Summary
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://10.22.127.127/Report/ProcessExportReport">
+                            <i class="fa fa-circle-o"></i>
+                            Export Report
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://10.22.127.127/Report/Assignment">
+                            <i class="fa fa-circle-o"></i>
+                            Assignment
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://10.22.127.127/Report/Rank">
+                            <i class="fa fa-circle-o"></i>
+                            Student Rank
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://10.22.127.127/Report/StudentProgress">
+                            <i class="fa fa-circle-o"></i>
+                            Student Progress
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://10.22.127.127/Practice/AssignmentDetails/56#">
+                            <i class="fa fa-circle-o"></i>
+                            Export Data For SMS
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="http://10.22.127.127/Report/StudentInSystem" title="Export Student In System">
+                                    <i class="fa fa-circle-o"></i>
+                                    Student In System
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://10.22.127.127/Report/DetailStudentMark" ti="" title="Export Detail Student Mark">
+                                    <i class="fa fa-circle-o"></i>
+                                    Detail Student Mark
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+
+
+            <li style="display:none">
+                <a href="http://10.22.127.127/Practice/AssignmentDetails/56#">
+                    <i class="fa fa-wrench fa-fw"></i>
+                    <span>Administration</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li style="display:none">
+                        <a href="http://10.22.127.127/Batch" title="Batch Management">
+                            <i class="fa fa-circle-o"></i>
+                            Batch
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://10.22.127.127/Term" title="Term Management">
+                            <i class="fa fa-circle-o"></i>
+                            Term
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://10.22.127.127/Class" title="Class Management">
+                            <i class="fa fa-circle-o"></i>
+                            Class
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://10.22.127.127/User" title="User Management">
+                            <i class="fa fa-circle-o"></i>
+                            User
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://10.22.127.127/Group" title="Group Management">
+                            <i class="fa fa-circle-o"></i>
+                            Group
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="http://10.22.127.127/VDI" title="VDI Management">
+                            <i class="fa fa-circle-o"></i>
+                            VDI
+                        </a>
+                    </li>
+                    <li style="display:none">
+                        <a href="http://10.22.127.127/Practice/AssignmentDetails/56#">
+                            <i class="fa fa-circle-o"></i>
+                            Setting
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="http://10.22.127.127/GeneralSetting" title="General Settings">
+                                    <i class="fa fa-circle-o"></i>
+                                    General Settings
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://10.22.127.127/RankSetting" ti="" title="Rank Settings">
+                                    <i class="fa fa-circle-o"></i>
+                                    Rank Settings
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li style="display:none">
+                        <a href="http://10.22.127.127/Audit" title="Audit Logs">
+                            <i class="fa fa-circle-o"></i>
+                            Audit Logs
+                        </a>
+                    </li>
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+        </ul>
+    </section><div class="slimScrollBar" style="width: 3px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 573px; background: rgba(0, 0, 0, 0.2);"></div><div class="slimScrollRail" style="width: 3px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; opacity: 0.2; z-index: 90; right: 1px; background: rgb(51, 51, 51);"></div></div>
+    <!-- /.navbar-static-side -->
+</aside>
+
+        <div class="content-wrapper" style="min-height: 623px;">
+            
+
+<section class="content-header">
+    <h1>
+        <i class="fa fa-signal"></i> View Assignment <small> The file processing grogram </small>
+    </h1>
+    <ul class="breadcrumb">
+        <li><a href="http://10.22.127.127/"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="http://10.22.127.127/Practice">Practice</a></li>
+        <li>View Assignment</li>
+    </ul>
+</section>
+
+<section class="content">
+    <p class="text-right btn-grid-group">
+        <a class="btn btn-default btn-view" href="http://10.22.127.127/Practice" title="Back to List">
+            <i class="fa fa-chevron-circle-left"></i>
+            Back to List
+        </a>
+        <a title="Download Submission Template" href="http://10.22.127.127/Assignment/DownloadSubmissionTemplate" class="btn btn-success btn-view">
+            <i class="fa fa-download"></i>
+            Template
+        </a>
+    </p>
+    <div class="box box-primary">
+        <div class="box-header with-border">
+            <div class="col-sm-8 no-padding">
+                <h3 class="box-title">
+                    <i class="fa fa-eye"></i>
+                    Assignment Detail
+                </h3>
+            </div>
+        </div>
+        <div class="box-body no-padding">
+            <table class="table table-striped table-bordered detail-view">
+                <tbody>
+                    <tr class="odd">
+                        <th class="col-sm-2"><label for="Name">Assignment Name</label></th>
+                        <td class="col-sm-4">The file processing grogram</td>
+                        <th class="col-sm-2"><label for="AssignmentCode">Assignment Code</label></th>
+                        <td class="col-sm-4">J1.S.P0059</td>
+                    </tr>
+                    <tr class="even">
+                        <th><label for="StatusId">Status</label></th>
+                        <td>Approved</td>
+                        <th><label for="CategoryId">Category</label></th>
+                        <td>Short Assignment</td>
+                    </tr>
+                    <tr class="odd">
+                        <th><label for="TopicId">Topic</label></th>
+                        <td>Java OOP manual grading</td>
+                        <th><label for="ShortDescription">Short Description</label></th>
+                        <td>The file processing grogram</td>
+                    </tr>
+                    <tr class="even">
+                        <th><label for="Background">Background</label></th>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="odd">
+                        <th><label for="Description">Description</label></th>
+                        <td colspan="3"><p>Write the file processing program includes the following functions:</p>
+<p>1)&nbsp; User &nbsp;enters the path to a .txt file contains several lines, each line has 3 fields as school name, address, money which be separated by “;”</p>
+<ul>
+<li>If the money is wrong format, negativeor blank then the default value is 0 .</li>
+<li>User inputs a money as “n”, the program displays the money &gt; = n in ascending order and display persons have the most and least</li>
+</ul>
+<p>2) User enters a .txt file. Copy all words in files, each word only once and store them into another file. Each word is separated by 1 space.</p></td>
+                    </tr>
+                    <tr class="even">
+                        <th><label for="ProgramSpecification">Program Specifications</label></th>
+                        <td colspan="3"><p>Write the file processing program includes the following functions:</p>
+<p>1)&nbsp; User &nbsp;enters the path to a .txt file contains several lines, each line has 3 fields as school name, address, money which be separated by “;”</p>
+<ul>
+<li>If the money is wrong format, negativeor blank then the default value is 0 .</li>
+<li>User inputs a money as “n”, the program displays the money &gt; = n in ascending order and display persons have the most and least</li>
+</ul>
+<p>2) User enters a .txt file. Copy all words in files, each word only once and store them into another file. Each word is separated by 1 space.</p>
+<p><strong><em>Function details:</em></strong></p>
+<p><strong>Function 1:</strong> Display a menu and ask users to select an option.</p>
+<ul>
+<li>User runs the program. The program prompts users to select an option.</li>
+<li>User selects an option, perform <strong>Function</strong> <strong>2</strong>.</li>
+</ul>
+<p><strong>Function 2:</strong> Perform function based on the selected option.</p>
+<ul>
+<li>Option&nbsp; 1: Find person’s information</li>
+<ul>
+<li>Request to Enter txt file path and money.</li>
+<li>Check a valid data with the following conditions:</li>
+<ul>
+<li>The money not less than 0, wrong format, then the default value is 0.</li>
+<li>The fields in the text file are separated by “<strong>;</strong>”.</li>
+</ul>
+<li>Display and sort persons whose money is larger than the entered money.</li>
+<li>Display persons having the least and the most money.</li>
+<li>Back to the main screen.</li>
+</ul>
+<li>Option&nbsp; 2: Copy text to new file</li>
+<ul>
+<li>Require &nbsp;to enter into the text file path</li>
+<li>Copy all words into the new file.</li>
+<li>Back to the main screen.</li>
+</ul>
+<li>Option 3: Exit program.</li>
+</ul>
+<p><strong><em>Expectation of User interface:</em></strong></p>
+<p><img src="./26_files/j1.s.p0059_1.png" alt=""></p></td>
+                    </tr>
+                    <tr class="odd">
+                        <th><label for="StudentInstruction">Student Instruction</label></th>
+                        <td colspan="3"><p>&nbsp;</p>
+<p><strong>Instructions:</strong></p>
+<p>To use the classes:</p>
+<p>java.io.BufferedReade,java.io.BufferedWriter,java.io.File, java.io.FileReader, java.io.FileWriter, java.io.IOException, java.util.ArrayList, java.util.List;</p>
+<p>&nbsp;To process with file.</p>
+<p>To use the classes:</p>
+<p>java.util.Collections;</p>
+<p>java.util.Comparator;</p>
+<p>&nbsp;To sort the list.</p>
+<p>&nbsp;</p></td>
+                    </tr>
+                    <tr class="even">
+                        <th><label for="IsManual">Manual Grading?</label></th>
+                        <td>Yes</td>
+                        <th><label for="Duration">Slots</label></th>
+                        <td>1</td>
+                    </tr>
+                    <tr class="odd">
+                        <th><label for="LOC">Line of Code</label></th>
+                        <td>73</td>
+                        <th><label for="Difficulty">Difficulty</label></th>
+                        <td>3</td>
+                        
+                    </tr>
+                    <tr class="even">
+                        <th><label for="Comment">Comment</label></th>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="even">
+                        <th>Attached File(s)</th>
+                        <td colspan="3">
+                                <a href="http://10.22.127.127/Assignment/DownloadAttachment/6447" download="">StartupCode.zip</a>
+                                <br>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+        </div>
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+                <b>Version</b> 1.1.0
+            </div>
+            <strong>Copyright © 2015 <a href="http://www.fpt.edu.vn/">FPT University</a>.</strong> All rights reserved.
+        </footer>
+        <!-- /#page-wrapper -->
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./26_files/bootstrap"></script>
+
+    <script src="./26_files/toastr.min.js" type="text/javascript"></script>
+    
+
+    <script type="text/javascript">
+        //Configure toastr
+        toastr.options = {
+            "closeButton": false,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": true,
+            "positionClass": "toast-top-center",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "2000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        };
+
+        var msg = "";
+
+        if (msg != "") {
+            toastr.success(msg);
+        }
+
+        //Clear the saved state of datatables other than the one in this Controller
+        if (typeof (Storage) !== "undefined") {
+            for (var i = 0, len = sessionStorage.length; i < len; i++) {
+                var key = sessionStorage.key(i);
+                var value = sessionStorage.getItem(key);
+
+                //Remove the saved state of other controller
+                if (key != null && key.indexOf('Practice') <= 0) {
+                    sessionStorage.removeItem(key);
+                }
+            }
+        }
+
+        var isAbsoluteURI = new RegExp('^(?:[a-z]+:)?//', 'i');
+
+        $.ajaxSetup({
+            beforeSend: function (xhr) {
+                if (!isAbsoluteURI.test(this.url)) {
+                    //only add header to relative URLs
+                    xhr.setRequestHeader(
+                       'x-RequestVerificationToken',
+                       $('<input name="__RequestVerificationToken" type="hidden" value="JL59Oj9EQhWkkNa7yWV0GW7_RzZIJOeABl8msacKeY_aji2U21qN8PUa3d4FDoD48ATkZxKr4cqUoAYZUuwqC4MYkND53N8hGm2-InAJAO1PMBd99quhWqm1gfGF0chC0" />').val()
+                    );
+                }
+            }
+        });
+    </script>
+
+
+
+</body></html>
